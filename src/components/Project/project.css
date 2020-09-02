@@ -1,0 +1,61 @@
+/* .image-container,
+.info-container {
+  width: 50%;
+} */
+
+.project-image {
+  margin: 2vw;
+  padding: 2vw;
+  box-sizing: border-box;
+  width: 25vw;
+  height: 15vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c4c4c4; */
+  margin: auto;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.final {
+  background-image: url("../../assets/screen.gif");
+  height: 10vw;
+}
+
+.game {
+  background-image: url("../../assets/game.png");
+}
+
+.timer {
+  background-image: url("../../assets/timer.PNG");
+}
+
+.weather {
+  background-image: url("../../assets/weather.png");
+}
+
+.website {
+  background-image: url("../../assets/website.PNG");
+}
+
+@media only screen and (max-width: 1200px) {
+  .projects-container {
+    justify-content: initial;
+  }
+}

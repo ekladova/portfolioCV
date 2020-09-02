@@ -1,0 +1,12 @@
+.projects-container {
+  border-left: 5px #856084 solid;
+  flex-direction: column;
+  z-index: 999;
+}
+
+@media only screen and (max-width: 550px) {
+  .hide {
+    visibility: hidden;
+    position: absolute;
+  }
+}

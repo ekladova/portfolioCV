@@ -1,0 +1,15 @@
+.skills-container {
+  border-left: 5px #ff6663 solid;
+}
+.skill-header {
+  align-self: flex-start;
+  color: #0b3954;
+  padding-bottom: 0.5vw;
+  border-bottom: dashed #0b3954 0.3vw;
+  width: 100%;
+  box-sizing: border-box;
+}
+.skills-p {
+  margin: 2vw 0;
+  text-align: center;
+}

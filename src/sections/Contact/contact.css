@@ -1,0 +1,170 @@
+.contact-container {
+  width: 25vw;
+  border: 2vw solid #0b3954;
+  padding: 0.5vw;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.icon {
+  height: 2vw;
+  margin: 0 1vw;
+}
+
+.contact-info-container {
+  width: 15vw;
+  margin: 1vw 0;
+}
+
+.header-link {
+  margin-bottom: 2vw;
+  font-size: 1.7vw;
+}
+
+.contact-info-header {
+  font-weight: 500;
+  margin: 1vw;
+}
+
+.contact-info-answer {
+  text-decoration: overline #0b3954 dashed;
+  text-align: right;
+}
+
+.email {
+  color: black;
+}
+.email:hover {
+  color: #0b3954;
+}
+
+.copy {
+  height: 1.5vw;
+  cursor: pointer;
+  margin: 1vw;
+}
+
+.number {
+  cursor: pointer;
+}
+
+.email-copy {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1250px) {
+  .contact-container {
+    min-height: 36vw;
+    max-width: 40vw;
+  }
+
+  .contact-info,
+  .contact-info-container {
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .contact-container {
+    width: 85%;
+    margin: 3vw auto;
+  }
+
+  .icon {
+    height: 3vw;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .contact-container {
+    max-width: 100%;
+    margin: 3vw auto;
+  }
+  .header-link {
+    font-size: 3vw;
+  }
+
+  .icon {
+    height: 3.5vw;
+    margin: 1vw 2vw;
+  }
+
+  .contact-info {
+    margin: 3vw auto;
+  }
+
+  .contact-info-header {
+    font-size: 2.5vw;
+  }
+
+  input {
+    width: 30vw;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .icon {
+    height: 4vw;
+  }
+
+  .contact-info-header {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .icon {
+    height: 5vw;
+  }
+  .contact-info {
+    width: 95%;
+    margin: auto;
+  }
+
+  input {
+    width: 60vw;
+  }
+  .header-link {
+    font-size: 4vw;
+  }
+
+  .contact-info-header {
+    font-size: 3.5vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .icon {
+    height: 6vw;
+  }
+
+  .header-link {
+    font-size: 4.5vw;
+  }
+
+  .contact-info-header {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .icon {
+    height: 7vw;
+  }
+
+  .header-link {
+    font-size: 4.5vw;
+  }
+
+  .contact-info-header {
+    font-size: 4vw;
+  }
+}

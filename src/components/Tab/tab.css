@@ -1,0 +1,132 @@
+.tab {
+  max-width: 10vw;
+  min-width: 3.5vw;
+  height: 5vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 1vw 1vw 0 0;
+  margin: 1vw 1.5vw;
+  padding: 0.2vw 2vw;
+  cursor: pointer;
+}
+
+.tabLink {
+  position: relative;
+  top: 1.5vw;
+}
+
+.active {
+  top: 0;
+}
+
+.blue {
+  background-color: #0b3954;
+}
+.pink {
+  background-color: #ff6663;
+}
+.green {
+  background-color: #439a86;
+}
+.purple {
+  background-color: #856084;
+}
+.yellow {
+  background-color: #e89005;
+}
+
+.tabLink {
+  height: fit-content;
+  width: fit-content;
+}
+
+.tabLink:hover {
+  opacity: 0.7;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1450px) {
+  .tab {
+    width: 4vh;
+    height: 10vh;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .tabLink {
+    top: 4vw;
+  }
+
+  .tab {
+    width: 3.5vh;
+    height: 16vw;
+  }
+
+  .active {
+    top: 2vw;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .tab {
+    width: 8vw;
+  }
+
+  .tabLink {
+    top: 3vw;
+  }
+
+  .active {
+    top: 1vw;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .tab {
+    width: 11vw;
+    max-width: 11vw;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .tab {
+    width: 12vw;
+    max-width: 12vw;
+    font-size: 2vw;
+  }
+
+  .tab {
+    font-size: 3.2vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .tabLink {
+    top: 5vw;
+  }
+
+  .tab {
+    font-size: 3vw;
+  }
+
+  .active {
+    top: 2vw;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .tabLink {
+    top: 5vw;
+  }
+
+  .tab {
+    height: 20vw;
+    font-size: 3.1vw;
+  }
+
+  .active {
+    top: 3vw;
+  }
+}
