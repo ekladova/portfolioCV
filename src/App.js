@@ -1,21 +1,13 @@
 import React from "react";
 import "./App.css";
 import Main from "./sections/Main";
-import {
-  Header,
-  About,
-  Skills,
-  Experience,
-  Projects,
-  Misc,
-} from "./components";
+import { About, Skills, Experience, Projects, Misc } from "./components";
 import { InfoTab, Contact } from "./sections";
 import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <Switch>
         <Main>
           <InfoTab>

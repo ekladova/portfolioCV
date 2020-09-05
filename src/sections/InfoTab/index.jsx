@@ -25,7 +25,7 @@ const InfoTab = ({ children }) => {
             <Tab className="purple" text="Projects" textClass="projects" />
           </NavLink>
           <NavLink to="misc" className="tabLink">
-            <Tab className="yellow" text="Misc" textClass="misc" />
+            <Tab className="yellow" text="Other" textClass="misc" />
           </NavLink>
         </div>
       </div>
