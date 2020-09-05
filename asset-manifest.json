@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/portfolioCV/static/css/main.d386c4f9.chunk.css",
-    "main.js": "/portfolioCV/static/js/main.2588ba3a.chunk.js",
-    "main.js.map": "/portfolioCV/static/js/main.2588ba3a.chunk.js.map",
+    "main.js": "/portfolioCV/static/js/main.dc8015a3.chunk.js",
+    "main.js.map": "/portfolioCV/static/js/main.dc8015a3.chunk.js.map",
     "runtime-main.js": "/portfolioCV/static/js/runtime-main.811e3db7.js",
     "runtime-main.js.map": "/portfolioCV/static/js/runtime-main.811e3db7.js.map",
-    "static/js/2.e1c8e594.chunk.js": "/portfolioCV/static/js/2.e1c8e594.chunk.js",
-    "static/js/2.e1c8e594.chunk.js.map": "/portfolioCV/static/js/2.e1c8e594.chunk.js.map",
+    "static/js/2.bf8ede3b.chunk.js": "/portfolioCV/static/js/2.bf8ede3b.chunk.js",
+    "static/js/2.bf8ede3b.chunk.js.map": "/portfolioCV/static/js/2.bf8ede3b.chunk.js.map",
     "index.html": "/portfolioCV/index.html",
-    "precache-manifest.f55e9de421c854f1f3b43617e3febb0a.js": "/portfolioCV/precache-manifest.f55e9de421c854f1f3b43617e3febb0a.js",
+    "precache-manifest.cbf03c51174b2cc4d9482e5f7a229957.js": "/portfolioCV/precache-manifest.cbf03c51174b2cc4d9482e5f7a229957.js",
     "service-worker.js": "/portfolioCV/service-worker.js",
     "static/css/main.d386c4f9.chunk.css.map": "/portfolioCV/static/css/main.d386c4f9.chunk.css.map",
-    "static/js/2.e1c8e594.chunk.js.LICENSE.txt": "/portfolioCV/static/js/2.e1c8e594.chunk.js.LICENSE.txt",
+    "static/js/2.bf8ede3b.chunk.js.LICENSE.txt": "/portfolioCV/static/js/2.bf8ede3b.chunk.js.LICENSE.txt",
     "static/media/cv.pdf": "/portfolioCV/static/media/cv.d3ac5fd1.pdf",
     "static/media/project.css": "/portfolioCV/static/media/website.0b4fc648.PNG",
     "static/media/web.png": "/portfolioCV/static/media/web.39e173bd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.811e3db7.js",
-    "static/js/2.e1c8e594.chunk.js",
+    "static/js/2.bf8ede3b.chunk.js",
     "static/css/main.d386c4f9.chunk.css",
-    "static/js/main.2588ba3a.chunk.js"
+    "static/js/main.dc8015a3.chunk.js"
   ]
 }
