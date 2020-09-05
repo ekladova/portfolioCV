@@ -32,6 +32,12 @@ a:hover {
   margin: 1vw;
 }
 
+.contact-link {
+  text-decoration: none;
+  color: #0b3954;
+  font-weight: bolder;
+}
+
 @media only screen and (max-width: 1250px) {
   .display {
     justify-content: center;

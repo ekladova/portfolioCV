@@ -42,11 +42,7 @@ const Contact = () => {
         <a target="_blank" rel="noopener noreferrer" href={cvPdf}>
           <img src={cv} className="icon" alt="contact icon, CV" />
         </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="mailto:ek.kladova@gmail.com"
-        >
+        <a href="mailto:ek.kladova@gmail.com">
           <img src={mail} className="icon" alt="contact icon, email" />
         </a>
       </div>

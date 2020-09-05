@@ -12,12 +12,12 @@ const Projects = () => {
     <>
       <div className="display projects-container">
         <Project
-          header="HTML/CSS/JavaScript Project"
-          imageClass="final"
-          text="A responsive website built with HTML/CSS/JavaScript."
-          gitLink="https://github.com/ekladova/Final-project"
-          webLink="https://ekladova.github.io/Final-project/"
-          alt="screen"
+          header="React.js Website"
+          imageClass="website"
+          text="A website with 4 pages, built with React.js. Consists of homepage with product selection and simulated checkout, a 'word game', and multiple illustrattions in SVG, PNG and JPEG formats"
+          gitLink="https://github.com/GiacomoSorbi/ekladova-module-ii/tree/master/src"
+          webLink="https://giacomosorbi.github.io/ekladova-module-ii/"
+          alt="Website"
         />
         <Project
           header="Memory game"
@@ -43,13 +43,14 @@ const Projects = () => {
           webLink="https://ekladova.github.io/milestone-v/"
           alt="weather API"
         />
+
         <Project
-          header="React.js Website"
-          imageClass="website"
-          text="A website with 4 pages, built on React.js. Consists of homepage with product selection and simulated checkout, a 'word game', and multiple illustrattions in SVG, PNG and JPEG formats"
-          gitLink="https://github.com/GiacomoSorbi/ekladova-module-ii/tree/master/src"
-          webLink="https://giacomosorbi.github.io/ekladova-module-ii/"
-          alt="Website"
+          header="HTML/CSS/JavaScript Project"
+          imageClass="final"
+          text="A responsive website built with HTML/CSS/JavaScript."
+          gitLink="https://github.com/ekladova/Final-project"
+          webLink="https://ekladova.github.io/Final-project/"
+          alt="screen"
         />
       </div>
     </>

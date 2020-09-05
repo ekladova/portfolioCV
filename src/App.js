@@ -19,21 +19,38 @@ function App() {
       <Switch>
         <Main>
           <InfoTab>
-            <Route path="/about" exact>
-              <About />
+            <Route path="/" exact>
+              <div className="display">
+                <h2 className="skill-header">Welcome</h2>
+                <p className="skills-p">
+                  This is a portfolio website to showcase my professional
+                  achievements in Front-End Development.
+                  <br />
+                  <br />
+                  Please, navigate to the relevant tab to find out more, or{" "}
+                  <a
+                    className="contact-link"
+                    href="mailto:ek.kladova@gmail.com"
+                  >
+                    get in touch
+                  </a>{" "}
+                  to ask me personally!
+                  <br />
+                  <br />
+                  Thank you for your time.
+                </p>
+              </div>
             </Route>
-            <Route path="/skills" exact>
-              <Skills />
-            </Route>
-            <Route path="/experience" exact>
-              <Experience />
-            </Route>
-            <Route path="/projects" exact>
-              <Projects />
-            </Route>
-            <Route path="/misc" exact>
-              <Misc />
-            </Route>
+
+            <Route path="/about" exact component={About} />
+
+            <Route path="/skills" exact component={Skills} />
+
+            <Route path="/experience" exact component={Experience} />
+
+            <Route path="/projects" exact component={Projects} />
+
+            <Route path="/misc" exact component={Misc} />
           </InfoTab>
           <Contact />
         </Main>
