@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "370d69870de8e17250a4267c903e998f",
+    "revision": "f2b38744296e91ce439c995928f331a7",
     "url": "/portfolioCV/index.html"
   },
   {
-    "revision": "784e2f08214daaf83d92",
-    "url": "/portfolioCV/static/css/main.d386c4f9.chunk.css"
+    "revision": "9a5326c2f44ce4afecd9",
+    "url": "/portfolioCV/static/css/main.f191ff97.chunk.css"
   },
   {
     "revision": "3beeabdece25d4e5150f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioCV/static/js/2.bf8ede3b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "784e2f08214daaf83d92",
-    "url": "/portfolioCV/static/js/main.dc8015a3.chunk.js"
+    "revision": "9a5326c2f44ce4afecd9",
+    "url": "/portfolioCV/static/js/main.cdfc39f9.chunk.js"
   },
   {
     "revision": "1ce3470fc222cf225953",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2c6238e304700a77fcda3ae44fad0590",
     "url": "/portfolioCV/static/media/game.2c6238e3.png"
+  },
+  {
+    "revision": "4f408a25ed7adfb6ee590d256c0b5b2c",
+    "url": "/portfolioCV/static/media/rps.4f408a25.PNG"
   },
   {
     "revision": "db43abdf275f04715bf5380c2da1f51b",
