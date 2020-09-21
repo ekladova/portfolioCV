@@ -12,6 +12,14 @@ const Projects = () => {
     <>
       <div className="display projects-container">
         <Project
+          header="Rock Paper Scissors Game"
+          imageClass="rps"
+          text="A rock-paper-scissors game with 'best of 3 rounds' win condition"
+          gitLink="https://github.com/ekladova/rpc/blob/master/src/sections/Scene/index.jsx"
+          webLink="https://ekladova.github.io/rpc"
+          alt="rps-game"
+        />
+        <Project
           header="React.js Website"
           imageClass="website"
           text="A website with 4 pages, built with React.js. Consists of homepage with product selection and simulated checkout, a 'word game', and multiple illustrattions in SVG, PNG and JPEG formats"
